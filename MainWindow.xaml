@@ -1,0 +1,21 @@
+﻿<Window x:Class="Lesson_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="277.275" Width="369.336">
+    <Grid>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30">
+            <Button Content="1" Background="PaleGreen" Width="75" Height="75" Click="Button_Click" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+            <Button Content="2" Background="LightSkyBlue" Width="75" Height="75" Click="Button_Click" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="30,0,0,0"/>
+            <Button Content="3" Background="OrangeRed" Width="75" Height="75" Click="Button_Click" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="30,0,0,0"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,133,0,0" >
+            <Button Content="4" Background="YellowGreen" Width="75" Height="75" Click="Button_Click" MouseRightButtonDown="Button_MouseRightButtonDown"/>
+            <Button Content="5" Background="Orange" Width="75" Height="75" Click="Button_Click" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="30,0,0,0"/>
+            <Button Content="6" Background="Violet" Width="75" Height="75" Click="Button_Click" MouseRightButtonDown="Button_MouseRightButtonDown" Margin="30,0,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
